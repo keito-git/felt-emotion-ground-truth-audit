@@ -32,8 +32,8 @@ which the texts can be re-retrieved with the scripts above.
 
 `analysis_v2.py` reads `02_データ/frame_all_v1.csv` and `02_データ/years_verified.csv`. These are the
 working files from which `S1_coding_table.csv` and `S3_publication_years.csv` were produced, and they
-carry the same values under the column names used in the code.
-
-In this repository those two working files are included at `02_データ/`, so `analysis_v2.py` runs
-from the repository root with no further setup, and `03_解析/stats/analysis_v2.json` holds the output
-it produced for the manuscript, for comparison.
+carry the same values under the column names used in the code. They are included at those paths at
+the top of this repository, so `python3 S7_scripts/analysis_v2.py` runs from there with no further
+setup, and `03_解析/stats/analysis_v2.json` holds the output it produced for the manuscript. A run
+that reproduces the reported numbers leaves that file unchanged. It requires `scipy`, `statsmodels`
+and `numpy`, and its console output is in Japanese, as written.
