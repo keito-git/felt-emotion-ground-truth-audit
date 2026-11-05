@@ -1,0 +1,60 @@
+dataset,modality,elicitation_scene,record_from_person,record_from_observers,designated_ground_truth,source_type,declared_measurement_target,validation_direction,declaration_source_mismatch,coding_note
+AFEW-VA,face,existing resources and observation,なし,あり(複数評定者),observer,agreement,not stated,none,no,C一致度型
+Aff-Wild2,face,existing resources and observation,なし,あり(専門家4名),observer,agreement,not stated,none,no,C一致度型(専門家)
+AffectiveText,text,existing resources and observation,なし(本人不在の対象=見出し),あり(6名),observer,agreement,no person in principle,none,no,C一致度型 / 区分3
+AffectNet,face,existing resources and observation,なし,あり(2名で一致度算出),observer,agreement,not stated,none,no,C一致度型
+AMIGOS,physiological,solitary elicitation,あり(自己評定),あり(3名),observer,validity,felt emotion of the person,observer -> self,no,妥当性型 / observer→self
+ASCERTAIN,physiological,solitary elicitation,あり(視聴後に自己報告),なし(刺激の正解はDECAF由来),self,self,felt emotion of the person,none,no,A自己型
+Blogs,text,existing resources and observation,なし,あり(judges・訓練なし),observer,agreement,felt emotion of the person,none,yes,C
+BP4D,face,interpersonal interaction,あり(subject self-report),あり(認定FACSコーダー+観察者評定),observer(FACS),agreement,felt emotion of the person,self -> observer,yes,C / **自己報告は誘発の有効性検証に使用＝降格**
+BU-3DFE,face,instructed expression,指示による表出(7表情をperform),—,protocol,protocol,not stated,none,no,B プロトコル型
+BU-4DFE,face,instructed expression,指示による表出(instructed to perform),なし,protocol,protocol,not stated,none,no,Bプロトコル型
+CASME II,face,solitary elicitation,あり(自己報告),あり(AUコーダー),混合(AU+自己報告+刺激内容),mixed,felt emotion of the person,none,no,G混合型
+CK+,face,instructed expression,あり(実験者の要求=requested emotion),あり(認定FACSコーダー),observer(FACS検証済ラベル),agreement,felt emotion of the person,self -> observer,yes,C / 原文: emotion labels ... refer to what was requested rather than what was actually performed → 要求ラベルを棄却
+CLAS,physiological,solitary elicitation,あり(self-assessment questions),なし,protocol(**stimuli tags as ground-truth labels**),protocol,not stated,none,no,Bプロトコル型 / 原文明記
+CMU-MOSEI,multimodal,existing resources and observation,なし(話者は招かれない),あり(MTurk 3名),observer,agreement,perception of others,none,no,整合(declared=others-perception)
+DailyDialogs,text,existing resources and observation,なし,あり,observer(多数決+再注釈で合意形成),agreement,felt emotion of the person,none,yes,C一致度型 / 不一致を消す
+DEAP,physiological,solitary elicitation,あり(SAM)=正解,volunteersは刺激選定のみ,self,self,felt emotion of the person,none,no,自己型(反例)
+DECAF,physiological,solitary elicitation,あり(参加者の自己評定),なし,self,self,felt emotion of the person,none,no,A自己型 / 「participants' self-assessments」と生理反応の相関を分析・分類対象は自己評定
+DEFE,face,solitary elicitation,あり(DES自己報告尺度で felt emotions),なし,self,self,felt emotion of the person,none,no,A自己型 / 要精査(分類ラベルの確定)
+DFEW,face,existing resources and observation,なし,あり(3名/クリップ),observer,agreement,not stated,none,no,C一致度型
+DSdRD,physiological,solitary elicitation,なし(運転区間が条件),なし,protocol(運転タスクの区間),protocol,not stated,none,no,Bプロトコル型 / 要精査
+Electoral-Tweets,text,existing resources and observation,なし,あり(MTurk/CrowdFlower・約3000名),observer,agreement,felt emotion of the person,none,yes,C
+EMILYA,body,instructed expression,俳優による表出(portray),なし,protocol,protocol,not stated,none,no,Bプロトコル型
+EmoBank,text,existing resources and observation,なし(両極とも代理),あり(CF作業者),observer(reader),proxy,no person in principle,none,no,代理型 / 一人称を品質管理のため排除
+EmoInt,text,existing resources and observation,なし,あり(Best-Worst Scaling),observer,agreement,felt emotion of the person,none,yes,C / **declared=person-state**「annotators ... are to infer ... the extent to which **the speaker is likely feeling** a particular emotion」＝問題のセル
+EMOTIC,face,existing resources and observation,なし(写っている人物は招かれない),あり(Amazon Mechanical Turk),observer,agreement,felt emotion of the person,none,yes,C一致度型 / declared=person-state(写っている人物の感情)
+EmotioNet,face,existing resources and observation,なし,専門家AU符号化+自動,observer/自動,agreement,not stated,none,no,C(要精査)
+EmoTV,multimodal,existing resources and observation,なし,あり(2名・Anvil),observer,agreement,perception of others,none,no,C一致度型 / declared は「感情の**知覚**への様相の影響」＝整合寄り・要精査
+FABO,body,instructed expression,指示による表出(perform),あり,protocol+observer,protocol,not stated,none,no,B プロトコル型
+fb-valence-arousal,text,existing resources and observation,投稿者は質問紙に回答済(myPersonality),あり(心理学訓練を受けた2名),observer,agreement,felt emotion of the person,none,yes,C / **本人は研究に参加しているのに感情ラベルは注釈者から**
+FER2013,face,existing resources and observation,なし,検索クエリ+研究者1名,query(収集手続き),collection-procedure,not stated,none,no,B収集手続き型 / 手作業ラベルはクエリ由来ラベルに合わせる
+FRUST,face,solitary elicitation,あり(主観評定),あり(Affectivaの自動AU),self(主観評定を'one ground truth'と記述),self,felt emotion of the person,none,no,A自己型 / 原文が ground truth を引用符付きで書く点は本文で言及に値する
+GEMEP,body,instructed expression,演者への指示(portrayal),あり(評定研究),protocol+observer,protocol,perception of others,none,no,B/C
+Grounded-Emotions,text,existing resources and observation,あり(書き手のタグ付きツイート),なし,self,self,felt emotion of the person,none,no,A自己型 / 要精査(TECと同型か)
+ICT-MMMO,multimodal,existing resources and observation,なし,あり(coder 2名、ExpoTVは1名),observer,agreement,felt emotion of the person,none,yes,C一致度型 / **declared=person-state**「the sentiment expressed **by the person being videotaped**」なのに coders が付与
+IEMOCAP,speech,interpersonal interaction,あり(自己評定),あり(素人評定),observer(多数決),agreement,felt emotion of the person,self -> observer,yes,一致度型 / self→observer
+ISEAR,text,existing resources and observation,あり(本人が自分の感情経験を記述),—,self(状況記述の割付),self,felt emotion of the person,none,no,A自己型 / 要精査(ラベルは割付か申告か)
+JAFFE,face,instructed expression,あり(表出者の意図),あり(viewers),observer(viewer評定),agreement,felt emotion of the person,self -> observer,yes,C一致度型 / self→observer(1998・最古)
+MAHNOB-HCI,physiological,solitary elicitation,あり(felt emotionをA/V/D/predictability+感情語で自己報告),タグ同意課題は別,self,self,felt emotion of the person,none,no,A自己型
+MMI,face,instructed expression,指示による表出,あり(FACSコーダー),protocol+observer,protocol,not stated,none,no,B/C
+MMSE-HR,face,solitary elicitation,要精査(抽出テキストに自己報告の記載を確認できず),あり(FACS専門家が出現と強度を注釈),observer(FACS)+protocol(emotion induction),agreement,not stated,none,no,C/B / 抽出が部分的なため partial
+NNIME,multimodal,interpersonal interaction,あり(self-report),あり(peer/director/observer),4視点を配布,deferral,felt emotion of the person,none,no,F留保型に近い(4視点併記) / 要精査
+OMG-Emotion,multimodal,existing resources and observation,なし(動画投稿者は招かれない),あり(MTurk・1動画あたり5名),observer(全注釈からgold算出・CCCで一致度を評価),agreement,felt emotion of the person,none,yes,C一致度型
+Oulu-CASIA,face,instructed expression,指示による表出,—,protocol,protocol,not stated,none,no,B / 要精査
+RAF-DB,face,existing resources and observation,なし,あり(訓練された注釈者・多数決/信頼性フィルタ),observer,agreement,perception of others,none,no,C一致度型だが**整合**: 原文「study the common **expression perception** by a reliable crowdsourcing approach」
+RECOLA,multimodal,interpersonal interaction,あり(自己報告・SAM),あり(6名の連続評定),observer(6名の連続評定),agreement,felt emotion of the person,self -> protocol,yes,C一致度型 / 自己報告はムード誘導の割付と背景情報に使用＝降格
+SAMM,face,solitary elicitation,**意図的に自己報告を取らない設計**,あり(コーダー),observer,agreement,felt emotion of the person,none (design decision not to collect self-reports),yes,"C / 原文: tailor each video stimuli to each participant, **rather than obtaining self-reports**"
+SEED,physiological,solitary elicitation,参加者は自分の感情を喚起するよう教示,なし,protocol(映画3種の分類),protocol,felt emotion of the person,none,yes,B プロトコル型
+SEMAINE,multimodal,interpersonal interaction,なし,あり(6-8名/クリップ・FEELtrace),observer,agreement,perception of others,none,no,C / ただし declared=others-perception「how positive or negative **the person appears to feel**」→整合寄り
+SEND,multimodal,interpersonal interaction,あり(本人の連続自己評定),あり(約700名),observer(EWE),agreement,felt emotion of the person,self -> observer,yes,一致度型 / self→observer
+SMIC,face,solitary elicitation,あり(視聴後の自己報告質問紙),あり(コーダー),要確認,mixed,felt emotion of the person,none,no,要精査(自己報告とコーダーの関係)
+SSEC,text,existing resources and observation,なし,あり(専門家),observer,agreement,felt emotion of the person,none,yes,C一致度型(既存コーパスへの上書き)
+Tales,text,existing resources and observation,なし(本人不在の対象=架空の人物),あり(ペア注釈),observer(第一著者が裁定),proxy,no person in principle,none,no,E代理型+裁定型 / 区分3
+TEC,text,existing resources and observation,あり(書き手のハッシュタグ),あり(trained judges),self(ただしjudgesに照合),agreement,felt emotion of the person,self -> observer,yes,一致度型 / self→observer
+THEATER Corpus,body,instructed expression,なし,あり(coder),observer,agreement,not stated,none,no,C一致度型 / coder が次元値を見ながら整合性を確認する設計・要精査
+USC CreativeIT,multimodal,interpersonal interaction,俳優の即興(演技),あり(評定者),protocol+observer,protocol,not stated,none,no,B/C / 要精査
+VAD,multimodal,existing resources and observation,なし,あり(注釈者),observer,agreement,perception of others,none,no,C一致度型だが**整合**: 原文「the annotation of our VAD dataset is derived from the **annotators' perception and judgment** of the video content」
+VAM,speech,existing resources and observation,なし,あり(多数の評価者),observer,agreement,not stated,none,no,C一致度型 / 統合方法は要確認
+VEATIC,face,existing resources and observation,なし,あり(**192名**・注釈者バイアス低減のため多数を採用),observer,agreement,felt emotion of the person,none,yes,C一致度型 / 多数の注釈者で偏りを平均化する設計
+WESAD,physiological,solitary elicitation,あり(PANAS/STAI/SAM/SSSQ),なし,protocol(実験条件),protocol,felt emotion of the person,self -> protocol,yes,プロトコル型 / self→protocol

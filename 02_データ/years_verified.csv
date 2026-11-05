@@ -1,0 +1,62 @@
+dataset,year,出所,備考
+TEC,2012,"PDF: 'pages 246–255, Montréal, Canada, June 7-8, 2012'",
+EmoBank,2017,"PDF: 'pages 578–585, Valencia, Spain, April 3-7, 2017'",
+DailyDialogs,2017,"PDF: 'pages 986–995, Taipei, Taiwan, November 27 – December 1, 2017'",
+AffectiveText,2007,"PDF: 'pages 70–74, Prague, June 2007'",
+Tales,2005,"PDF: 'pages 579–586, Vancouver, October 2005'",
+SSEC,2017,"PDF: 'Copenhagen, Denmark, September 7–11, 2017'",
+EmoInt,2017,"PDF: 'Copenhagen, Denmark, September 7–11, 2017'",
+CMU-MOSEI,2018,"PDF: 'Melbourne, Australia, July 15 - 20, 2018'",
+CASME II,2014,PDF: 'Copyright: 2014' (PLoS ONE),
+WESAD,2018,PDF: '© 2018' (ICMI),
+DFEW,2020,PDF: '© 2020' (ACM MM),
+IEMOCAP,2008,PDF: 'LREC 2008',誌面はLang. Resources & Evaluation 42(4)
+JAFFE,1998,PDF: 'IEEE Face & Gesture 1998',arXiv再録は2020。**原典1998を使う**
+RECOLA,2013,OpenAlex題名完全一致 DOI 10.1109/fg.2013.6553805,
+MAHNOB-HCI,2011,OpenAlex題名完全一致 DOI 10.1109/t-affc.2011.25,"誌面はTAC 3(1), 2012"
+ASCERTAIN,2016,OpenAlex題名完全一致 DOI 10.1109/taffc.2016.2625250,"誌面はTAC 9(2), 2018"
+SEED,2015,OpenAlex題名完全一致 DOI 10.1109/tamd.2015.2431497,
+NNIME,2017,OpenAlex題名完全一致 DOI 10.1109/acii.2017.8273615,
+VAM,2008,OpenAlex題名完全一致 DOI 10.1109/icme.2008.4607572,
+ISEAR,1994,OpenAlex題名完全一致 DOI 10.1037/0022-3514.66.2.310,**心理学の原典年。データセット公開年とは別**
+CK+,2010,OpenAlex題名完全一致 DOI 10.1109/cvprw.2010.5543262,
+MMI,2005,OpenAlex題名完全一致 DOI 10.1109/icme.2005.1521424,
+BU-3DFE,2006,OpenAlex題名完全一致 DOI 10.1109/fgr.2006.6,
+BP4D,2014,OpenAlex題名完全一致 DOI 10.1016/j.imavis.2014.06.002,
+Oulu-CASIA,2011,OpenAlex題名完全一致 DOI 10.1016/j.imavis.2011.07.002,
+SMIC,2013,OpenAlex題名完全一致 DOI 10.1109/fg.2013.6553717,
+SAMM,2016,OpenAlex題名完全一致 DOI 10.1109/taffc.2016.2573832,
+Blogs,2007,OpenAlex題名完全一致 DOI 10.1007/978-3-540-74628-7_27,
+Electoral-Tweets,2014,OpenAlex題名完全一致 DOI 10.1016/j.ipm.2014.09.003,
+GEMEP,2011,OpenAlex題名完全一致 DOI 10.1037/a0025827,
+fb-valence-arousal,2016,OpenAlex題名完全一致 DOI 10.18653/v1/w16-0404,
+FABO,2006,OpenAlex題名完全一致(取得ログ),要再確認
+DEAP,2011,OpenAlex題名完全一致 DOI 10.1109/t-affc.2011.15,"誌面はTAC 3(1), 2012"
+SEMAINE,2011,OpenAlex題名完全一致 DOI 10.1109/t-affc.2011.20,"誌面はTAC 3(1), 2012"
+K-EmoCon,2020,OpenAlex題名完全一致 DOI 10.1038/s41597-020-00630-y,
+AMIGOS,2018,OpenAlex題名完全一致 DOI 10.1109/taffc.2018.2884461,arXiv初版は2017 (1702.02510)
+AffectNet,2017,OpenAlex題名完全一致 DOI 10.1109/taffc.2017.2740923,arXiv初版2017
+FER2013,2013,OpenAlex題名完全一致 DOI 10.1007/978-3-642-42051-1_16,
+EmotioNet,2016,取得元URL = openaccess.thecvf.com/content_cvpr_2016/ (CVPR 2016),OpenAlex検索は別文献を返したため不採用
+Aff-Wild2,2019,OpenAlex題名完全一致（DOIなし）,
+SEND,2019,OpenAlex題名完全一致 DOI 10.1109/taffc.2019.2955949,arXiv初版2019 (1912.05008)・誌面はTAC 2021
+OMG-Emotion,2018,OpenAlex題名完全一致 DOI 10.1109/ijcnn.2018.8489099,
+DECAF,2015,"PDF: 'IEEE TRANSACTIONS ON AFFECTIVE COMPUTING, VOL. 6, NO. 3, JULY-SEPTEMBER 2015'",
+DEFE,2021,PDF: '© 2021 IEEE',S1の収録表は2023(TAC誌面年)。**初公開年の規則により2021を使用**
+FRUST,2022,PDF: '© 2022 IEEE',S1の収録表は2023(TAC 14(4))。同上
+VAD,2024,PDF: '© 2024 IEEE',
+CLAS,2019,PDF: '©2019 IEEE',
+DSdRD,2005,PDF: '© 2005 IEEE',
+EMOTIC,2017,PDF: '© 2017 IEEE'(CVPR Workshops),arXiv版1609.06426は2016
+VEATIC,2024,"S1参考文献[41]: 'WACV, 2024'",PDFからは年の明示行を取れず
+RAF-DB,2017,PDF: '© 2017 IEEE'(CVPR),
+4DFAB,2018,PDF: '© 2018 IEEE'(CVPR),
+BU-4DFE,2008,S4参考文献および配布元(FG 2008),**PDF内に年の明示行を確認できず・要再確認**
+ICT-MMMO,2013,PDF: '© 2013 IEEE',
+USC CreativeIT,2016,Springer LRE(DOI 10.1007/s10579-015-9300-0),オンライン初出2015・誌面2016。要方針確認
+Grounded-Emotions,2017,PDF: '2017 Seventh International Conference on Affective Computing and Intelligent Interaction (ACII)',
+EMILYA,2014,PDF: 'LREC 2014' / S4参考文献,
+EmoTV,2005,PDF: 'Proceedings of HCI International 2005',
+THEATER Corpus,2009,"S4参考文献[91]: Kipp & Martin, 2009",PDFからは年の明示行を取れず
+AFEW-VA,2017,PDF: 'Image and Vision Computing xxx (2017)',
+MMSE-HR,2016,取得元URL = openaccess.thecvf.com/content_cvpr_2016/ (CVPR 2016),

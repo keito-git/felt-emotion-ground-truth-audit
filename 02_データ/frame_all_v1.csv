@@ -1,0 +1,63 @@
+dataset,sources,modality_hint,note,self_record,observer_record,designated_label,justification,codable,type,declared_construct,validation_direction,problem_cell,setting,setting_note,modality
+AFEW-VA,S1,VA/multi,External,なし,あり(複数評定者),observer,C一致度型,yes,C一致度,unstated,none,,F,,face
+Aff-Wild2,S1,VA/multi,External,なし,あり(専門家4名),observer,C一致度型(専門家),yes,C一致度,unstated,none,,F,,face
+AffectNet,S1+S4-T3_facial,VA/multi,External,なし,あり(2名で一致度算出),observer,C一致度型,yes,C一致度,unstated,none,,F,,face
+AMIGOS,S1+S4-T5_physio,VA/multi,External/SA,あり(自己評定),あり(3名),observer,妥当性型 / observer→self,yes,D妥当性,person-state,observer→self,,S,個人条件と集団条件の両方を含むが、生理計測は個人単位のためSに分類。要注記,physiological
+ASCERTAIN,S1,VA/multi,SA,あり(視聴後に自己報告),なし(刺激の正解はDECAF由来),self,A自己型,yes,A自己,person-state,none,,S,,physiological
+CLAS,S1,VA/multi,External,あり(self-assessment questions),なし,protocol(**stimuli tags as ground-truth labels**),Bプロトコル型 / 原文明記,yes,Bプロトコル,unstated,none,,S,,physiological
+DEAP,S1+S4-T5_physio,VA/multi,External/SA,あり(SAM)=正解,volunteersは刺激選定のみ,self,自己型(反例),yes,A自己,person-state,none,,S,,physiological
+DECAF,S1+S4-T6_multimodal,VA/multi,SA,あり(参加者の自己評定),なし,self,A自己型 / 「participants' self-assessments」と生理反応の相関を分析・分類対象は自己評定,yes,A自己,person-state,none,,S,,physiological
+DEFE,S1,VA/multi,SA,あり(DES自己報告尺度で felt emotions),なし,self,A自己型 / 要精査(分類ラベルの確定),partial,A自己,person-state,none,,S,,face
+EMOTIC,S1,VA/multi,External,なし(写っている人物は招かれない),あり(Amazon Mechanical Turk),observer,C一致度型 / declared=person-state(写っている人物の感情),yes,C一致度,person-state,none,YES,F,,face
+FRUST,S1,VA/multi,SA,あり(主観評定),あり(Affectivaの自動AU),self(主観評定を'one ground truth'と記述),A自己型 / 原文が ground truth を引用符付きで書く点は本文で言及に値する,partial,A自己,person-state,none,,S,,face
+IEMOCAP,S1+S4-T6_multimodal,VA/multi,External,あり(自己評定),あり(素人評定),observer(多数決),一致度型 / self→observer,yes,C一致度,person-state,self→observer,YES,I,,speech
+MAHNOB-HCI,S1+S4-T6_multimodal,VA/multi,SA,あり(felt emotionをA/V/D/predictability+感情語で自己報告),タグ同意課題は別,self,A自己型,yes,A自己,person-state,none,,S,,physiological
+MMSE-HR,S1,VA/multi,SA,要精査(抽出テキストに自己報告の記載を確認できず),あり(FACS専門家が出現と強度を注釈),observer(FACS)+protocol(emotion induction),C/B / 抽出が部分的なため partial,partial,C一致度,unstated,none,,S,,face
+NNIME,S1,VA/multi,External/SA,あり(self-report),あり(peer/director/observer),4視点を配布,F留保型に近い(4視点併記) / 要精査,partial,F留保,person-state,none,,I,,multimodal
+OMG-Emotion,S1,VA/multi,External,なし(動画投稿者は招かれない),あり(MTurk・1動画あたり5名),observer(全注釈からgold算出・CCCで一致度を評価),C一致度型,yes,C一致度,person-state,none,YES,F,,multimodal
+RECOLA,S1+S4-T6_multimodal,VA/multi,External,あり(自己報告・SAM),あり(6名の連続評定),observer(6名の連続評定),C一致度型 / 自己報告はムード誘導の割付と背景情報に使用＝降格,yes,C一致度,person-state,self→protocol,YES,I,,multimodal
+SEMAINE,S1,VA/multi,External,なし,あり(6-8名/クリップ・FEELtrace),observer,C / ただし declared=others-perception「how positive or negative **the person appears to feel**」→整合寄り,yes,C一致度,others-perception,none,,I,,multimodal
+SEND,S1,VA/multi,External/SA,あり(本人の連続自己評定),あり(約700名),observer(EWE),一致度型 / self→observer,yes,C一致度,person-state,self→observer,YES,I,語り手が単独で語るが対人的な語りの場面でありIに分類。要注記,multimodal
+USC CreativeIT,S1+S4-T6_multimodal,VA/multi,External,俳優の即興(演技),あり(評定者),protocol+observer,B/C / 要精査,partial,Bプロトコル,unstated,none,,I,,multimodal
+VAD,S1,VA/multi,External,なし,あり(注釈者),observer,C一致度型だが**整合**: 原文「the annotation of our VAD dataset is derived from the **annotators' perception and judgment** of the video content」,yes,C一致度,others-perception,none,,F,,multimodal
+VAM,S1,VA/multi,External,なし,あり(多数の評価者),observer,C一致度型 / 統合方法は要確認,partial,C一致度,unstated,none,,F,,speech
+VEATIC,S1,VA/multi,External,なし,あり(**192名**・注釈者バイアス低減のため多数を採用),observer,C一致度型 / 多数の注釈者で偏りを平均化する設計,yes,C一致度,person-state,none,YES,F,,face
+WESAD,S1+S4-T5_physio,VA/multi,External/SA,あり(PANAS/STAI/SAM/SSSQ),なし,protocol(実験条件),プロトコル型 / self→protocol,yes,Bプロトコル,person-state,self→protocol,YES,S,,physiological
+BP4D,S4-T3_facial,facial,,あり(subject self-report),あり(認定FACSコーダー+観察者評定),observer(FACS),C / **自己報告は誘発の有効性検証に使用＝降格**,yes,C一致度,person-state,self→observer,YES,I,実験者との対人課題で誘発するためIに分類,face
+BU-3DFE,S4-T3_facial,facial,,指示による表出(7表情をperform),—,protocol,B プロトコル型,yes,Bプロトコル,unstated,none,,P,,face
+BU-4DFE,S4-T3_facial,facial,,指示による表出(instructed to perform),なし,protocol,Bプロトコル型,yes,Bプロトコル,unstated,none,,P,,face
+CASME II,S4-T3_facial,facial,,あり(自己報告),あり(AUコーダー),混合(AU+自己報告+刺激内容),G混合型,yes,G混合,person-state,none,,S,,face
+CK+,S4-T3_facial,facial,,あり(実験者の要求=requested emotion),あり(認定FACSコーダー),observer(FACS検証済ラベル),C / 原文: emotion labels ... refer to what was requested rather than what was actually performed → 要求ラベルを棄却,yes,C一致度,person-state,self→observer,YES,P,,face
+DFEW,S4-T3_facial,facial,,なし,あり(3名/クリップ),observer,C一致度型,yes,C一致度,unstated,none,,F,,face
+EmotioNet,S4-T3_facial,facial,,なし,専門家AU符号化+自動,observer/自動,C(要精査),partial,C一致度,unstated,none,,F,,face
+EmoTV,S4-T3_facial+S4-T4_gesture,facial,,なし,あり(2名・Anvil),observer,C一致度型 / declared は「感情の**知覚**への様相の影響」＝整合寄り・要精査,partial,C一致度,others-perception,none,,F,,multimodal
+ExpW,S4-T3_facial,facial,,,,,,,,,,,,,face
+FER2013,S4-T3_facial,facial,,なし,検索クエリ+研究者1名,query(収集手続き),B収集手続き型 / 手作業ラベルはクエリ由来ラベルに合わせる,yes,B収集手続き,unstated,none,,F,,face
+JAFFE,S4-T3_facial,facial,,あり(表出者の意図),あり(viewers),observer(viewer評定),C一致度型 / self→observer(1998・最古),yes,C一致度,person-state,self→observer,YES,P,,face
+MMI,S4-T3_facial,facial,,指示による表出,あり(FACSコーダー),protocol+observer,B/C,yes,Bプロトコル,unstated,none,,P,,face
+Oulu-CASIA,S4-T3_facial,facial,,指示による表出,—,protocol,B / 要精査,partial,Bプロトコル,unstated,none,,P,,face
+RAF-DB,S4-T3_facial,facial,,なし,あり(訓練された注釈者・多数決/信頼性フィルタ),observer,C一致度型だが**整合**: 原文「study the common **expression perception** by a reliable crowdsourcing approach」,yes,C一致度,others-perception,none,,F,,face
+SAMM,S4-T3_facial,facial,,**意図的に自己報告を取らない設計**,あり(コーダー),observer,"C / 原文: tailor each video stimuli to each participant, **rather than obtaining self-reports**",yes,C一致度,person-state,none(自己報告を取らない設計),YES,S,刺激を単独視聴して微表情を誘発するためS,face
+SMIC,S4-T3_facial,facial,,あり(視聴後の自己報告質問紙),あり(コーダー),要確認,要精査(自己報告とコーダーの関係),partial,G混合,person-state,none,,S,,face
+THEATER Corpus,S4-T3_facial,facial,,なし,あり(coder),observer,C一致度型 / coder が次元値を見ながら整合性を確認する設計・要精査,partial,C一致度,unstated,none,,P,,body
+EMILYA,S4-T4_gesture,gesture,,俳優による表出(portray),なし,protocol,Bプロトコル型,yes,Bプロトコル,unstated,none,,P,,body
+FABO,S4-T4_gesture,gesture,,指示による表出(perform),あり,protocol+observer,B プロトコル型,yes,Bプロトコル,unstated,none,,P,,body
+GEMEP,S4-T4_gesture,gesture,,演者への指示(portrayal),あり(評定研究),protocol+observer,B/C,yes,Bプロトコル,others-perception,none,,P,,body
+CMU-MOSEI,S4-T6_multimodal,multimodal,,なし(話者は招かれない),あり(MTurk 3名),observer,整合(declared=others-perception),yes,C一致度,others-perception,none,,F,,multimodal
+ICT-MMMO,S4-T6_multimodal,multimodal,,なし,あり(coder 2名、ExpoTVは1名),observer,C一致度型 / **declared=person-state**「the sentiment expressed **by the person being videotaped**」なのに coders が付与,yes,C一致度,person-state,none,YES,F,,multimodal
+DSdRD,S4-T5_physio,physio,,なし(運転区間が条件),なし,protocol(運転タスクの区間),Bプロトコル型 / 要精査,partial,Bプロトコル,unstated,none,,S,,physiological
+SEED,S4-T5_physio,physio,,参加者は自分の感情を喚起するよう教示,なし,protocol(映画3種の分類),B プロトコル型,yes,Bプロトコル,person-state,none,YES,S,,physiological
+AffectiveText,S2_text,text,,なし(本人不在の対象=見出し),あり(6名),observer,C一致度型 / 区分3,yes,C一致度,本人不在の対象,none,,F,,text
+Blogs,S2_text,text,,なし,あり(judges・訓練なし),observer,C,yes,C一致度,person-state,none,YES,F,,text
+CrowdFlower,S2_text,text,,,,,,,,,,,,,text
+DailyDialogs,S2_text,text,,なし,あり,observer(多数決+再注釈で合意形成),C一致度型 / 不一致を消す,yes,C一致度,person-state,none,YES,F,,text
+Electoral-Tweets,S2_text,text,,なし,あり(MTurk/CrowdFlower・約3000名),observer,C,yes,C一致度,person-state,none,YES,F,,text
+EmoBank,S2_text,text,,なし(両極とも代理),あり(CF作業者),observer(reader),代理型 / 一人称を品質管理のため排除,yes,E代理,本人不在の対象,none,,F,,text
+EmoInt,S2_text,text,,なし,あり(Best-Worst Scaling),observer,C / **declared=person-state**「annotators ... are to infer ... the extent to which **the speaker is likely feeling** a particular emotion」＝問題のセル,yes,C一致度,person-state,none,YES,F,,text
+Emotion-Stimulus,S2_text,text,,,,,,,,,,,,,text
+fb-valence-arousal,S2_text,text,,投稿者は質問紙に回答済(myPersonality),あり(心理学訓練を受けた2名),observer,C / **本人は研究に参加しているのに感情ラベルは注釈者から**,yes,C一致度,person-state,none,YES,F,,text
+Grounded-Emotions,S2_text,text,,あり(書き手のタグ付きツイート),なし,self,A自己型 / 要精査(TECと同型か),partial,A自己,person-state,none,,F,,text
+ISEAR,S2_text,text,,あり(本人が自分の感情経験を記述),—,self(状況記述の割付),A自己型 / 要精査(ラベルは割付か申告か),partial,A自己,person-state,none,,F,回答者が自身の感情経験を記述する質問紙。既存資料ではないがFに便宜分類。要注記,text
+SSEC,S2_text,text,,なし,あり(専門家),observer,C一致度型(既存コーパスへの上書き),yes,C一致度,person-state,none,YES,F,,text
+Tales,S2_text,text,,なし(本人不在の対象=架空の人物),あり(ペア注釈),observer(第一著者が裁定),E代理型+裁定型 / 区分3,yes,E代理,本人不在の対象,none,,F,,text
+TEC,S2_text,text,,あり(書き手のハッシュタグ),あり(trained judges),self(ただしjudgesに照合),一致度型 / self→observer,yes,C一致度,person-state,self→observer,YES,F,,text

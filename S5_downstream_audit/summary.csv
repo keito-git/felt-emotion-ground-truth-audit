@@ -1,0 +1,5 @@
+dataset,citing_papers_with_full_text_after_deduplication,excluded_as_survey,excluded_as_new_resource_paper,excluded_as_not_actually_using,analysed,mentions_of_the_caveat
+IEMOCAP,34,3,1,5,25,1
+CK+,8,2,0,0,6,0
+AffectNet,11,3,0,1,7,0
+EmoBank,23,3,3,12,5,0

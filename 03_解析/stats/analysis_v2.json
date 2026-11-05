@@ -1,0 +1,56 @@
+{
+ "cross": {
+  "unstated": {
+   "observer_or_design": 18
+  },
+  "person-state": {
+   "mixed_undetermined": 4,
+   "self": 8,
+   "observer_or_design": 20
+  },
+  "others-perception": {
+   "observer_or_design": 6
+  },
+  "本人不在の対象": {
+   "observer_or_design": 3
+  }
+ },
+ "asymmetry": {
+  "narrow": [
+   6,
+   1
+  ],
+  "broad": [
+   8,
+   1
+  ]
+ },
+ "modality": {
+  "multimodal/VA": {
+   "observer_or_design": 18,
+   "mixed_undetermined": 2,
+   "self": 6
+  },
+  "facial": {
+   "observer_or_design": 14,
+   "mixed_undetermined": 2
+  },
+  "body": {
+   "observer_or_design": 3
+  },
+  "physiological": {
+   "observer_or_design": 2
+  },
+  "text": {
+   "observer_or_design": 10,
+   "self": 2
+  }
+ },
+ "logit_year": {
+  "n": 58,
+  "b": 0.02180939694784747,
+  "se": 0.053195670442181146,
+  "p": 0.6818173647059429,
+  "OR": 1.0220489602527092
+ }
+}
